@@ -3,18 +3,20 @@ import { NbMenuModule } from '@nebular/theme';
 
 import { ThemeModule } from '../@theme/theme.module';
 import { PagesComponent } from './pages.component';
-import { DashboardModule } from './dashboard/dashboard.module';
-import { ECommerceModule } from './e-commerce/e-commerce.module';
 import { PagesRoutingModule } from './pages-routing.module';
-import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
+import { DashModule } from './dash/dash.module';
+import { MiscellaneousModule } from './zmiscellaneous/miscellaneous.module';
+import { AdmModule } from './adm/adm.module';
+import { SearchModule } from './search/search.module';
 
 @NgModule({
   imports: [
     PagesRoutingModule,
     ThemeModule,
     NbMenuModule,
-    DashboardModule,
-    ECommerceModule,
+    DashModule,
+    AdmModule,
+    SearchModule,
     MiscellaneousModule,
   ],
   declarations: [

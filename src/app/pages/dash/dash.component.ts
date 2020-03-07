@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-search',
+  selector: 'ngx-dash',
   template: `
-  <p>SEARSHCOWUR</p>
+  <p>Dash work</p>
   `,
 })
-export class SearchComponent {
+export class DashComponent {
 
 }
