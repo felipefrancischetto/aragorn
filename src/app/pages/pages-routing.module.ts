@@ -4,6 +4,8 @@ import { NgModule } from '@angular/core';
 import { PagesComponent } from './pages.component';
 import { DashComponent } from './dash/dash.component';
 import { NotFoundComponent } from './zmiscellaneous/not-found/not-found.component';
+import { SearchComponent } from './search/search.component';
+import { AdmComponent } from './adm/adm.component';
 
 const routes: Routes = [{
   path: '',
@@ -15,15 +17,12 @@ const routes: Routes = [{
     },
     {
       path: 'search',
-      loadChildren: () => import('./search/search.module')
-        .then(m => m.SearchModule),
+      component: SearchComponent,
     },
     {
       path: 'adm',
-      loadChildren: () => import('./adm/adm.module')
-        .then(m => m.AdmModule),
+      component: AdmComponent,
     },
-
     {
       path: '',
       redirectTo: 'dashboard',

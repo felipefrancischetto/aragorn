@@ -6,6 +6,8 @@ import { PagesComponent } from './pages.component';
 import { PagesRoutingModule } from './pages-routing.module';
 import { DashModule } from './dash/dash.module';
 import { MiscellaneousModule } from './zmiscellaneous/miscellaneous.module';
+import { AdmModule } from './adm/adm.module';
+import { SearchModule } from './search/search.module';
 
 @NgModule({
   imports: [
@@ -13,6 +15,8 @@ import { MiscellaneousModule } from './zmiscellaneous/miscellaneous.module';
     ThemeModule,
     NbMenuModule,
     DashModule,
+    AdmModule,
+    SearchModule,
     MiscellaneousModule,
   ],
   declarations: [
