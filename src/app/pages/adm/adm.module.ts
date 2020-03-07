@@ -4,11 +4,11 @@ import { NbCardModule } from '@nebular/theme';
 import { CKEditorModule } from 'ng2-ckeditor';
 
 import { ThemeModule } from '../../@theme/theme.module';
-import { SearchComponent } from './search.component';
+import { AdmComponent } from './adm.component';
 
 const routes: Routes = [{
   path: '',
-  component: SearchComponent,
+  component: AdmComponent,
   // children: [{
   //   path: 'tinymce',
   //   component: TinyMCEComponent,
@@ -25,7 +25,7 @@ const routes: Routes = [{
     CKEditorModule,
   ],
   declarations: [
-    SearchComponent,
+    AdmComponent,
   ],
 })
-export class SearchModule { }
+export class AdmModule { }
