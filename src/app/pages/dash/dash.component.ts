@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-dash',
-  template: `
-  <p>Dash work</p>
-  `,
+  templateUrl: './dash.component.html',
 })
 export class DashComponent {
 
