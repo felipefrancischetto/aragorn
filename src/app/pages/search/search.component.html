@@ -1,0 +1,36 @@
+<main class="main-container">
+  <section>
+    <p>search</p>
+  </section>
+  <section class="cards-container">
+
+      <nb-card *ngFor="let book of dataBooks"
+        class="col-md-5 card">
+        <nb-card-header>{{book.titulo}}</nb-card-header>
+        <nb-card-body class="body">
+          <div class="information">
+            <span class="titleInform">Autor:</span>
+            <span class="data">{{book.autor}}</span>
+          </div>
+          <div class="information">
+            <span class="titleInform">País:</span>
+            <span class="data">{{book.pais}}</span>
+          </div>
+          <div class="information">
+            <span class="titleInform">Genero:</span>
+            <span class="data">{{book.genero}}</span>
+          </div>
+          
+        </nb-card-body>
+      </nb-card>
+
+
+    <!-- <div 
+      
+      class="card">
+    {{book.titulo}}
+    </div> -->
+  </section>
+</main>
+
+
