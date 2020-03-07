@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-adm',
-  template: `
-  <p>ADM work</p>
-  `,
+  templateUrl: './adm.component.html',
 })
 export class AdmComponent {
 

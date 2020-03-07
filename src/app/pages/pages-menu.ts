@@ -8,8 +8,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'ADM',
-    icon: 'home-outline',
+    title: 'Novo Usuário',
+    icon: 'person-add',
     link: '/pages/adm',
   },
   {
