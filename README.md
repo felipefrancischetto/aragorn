@@ -1,40 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 🎵 Aragorn - Seu Assistente Musical
 
-## Getting Started
+<div align="center">
+  
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.1-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Styled Components](https://img.shields.io/badge/Styled%20Components-6.1.17-pink?style=for-the-badge&logo=styled-components)](https://styled-components.com/)
 
-First, run the development server:
+</div>
 
+## 📋 Sobre o Projeto
+
+Aragorn é uma aplicação web moderna desenvolvida para gerenciar e reproduzir conteúdo musical. Construído com as mais recentes tecnologias do ecossistema React, o projeto oferece uma experiência de usuário fluida e responsiva.
+
+## ✨ Funcionalidades
+
+- 🎧 Reprodução de músicas
+- 📅 Integração com date-fns para manipulação de datas
+- 🎨 Interface moderna com Styled Components
+- 🔍 Busca e download de conteúdo musical
+- 📱 Design responsivo
+
+## 🚀 Tecnologias Utilizadas
+
+- **Frontend:**
+  - Next.js 15.3.1
+  - React 18.2.0
+  - TypeScript 5.0
+  - Styled Components 6.1.17
+  - Axios 1.8.4
+
+- **Ferramentas de Desenvolvimento:**
+  - ESLint
+  - TypeScript ESLint
+  - Prettier
+
+## 🛠️ Instalação e Execução
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/felipefrancischetto/aragorn.git
+cd aragorn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+3. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+4. Para produção:
+```bash
+npm run build
+npm start
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── components/     # Componentes React reutilizáveis
+├── hooks/         # Custom hooks
+├── pages/         # Páginas da aplicação
+├── styles/        # Estilos globais e temas
+└── types/         # Definições de tipos TypeScript
+```
 
-## Learn More
+## 🤝 Contribuindo
 
-To learn more about Next.js, take a look at the following resources:
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Licença
 
-## Deploy on Vercel
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Autor
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+**Felipe Francischetto**
+
+- GitHub: [@felipefrancischetto](https://github.com/felipefrancischetto)
+
+---
+
+<div align="center">
+  
+Feito com ❤️ por Felipe Francischetto
+
+</div>
